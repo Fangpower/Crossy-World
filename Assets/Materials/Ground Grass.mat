@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ground Grass
+  m_Shader: {fileID: -6465566751694194690, guid: e555708b1386da943be4fe7b12ca5c35,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_20d57e399ac34e2cba8f92aa03c70b00: -13
+    - Vector1_a40af58530a748c592d00cd57d7f5105: 13
+    m_Colors:
+    - Color_7d14fe65c35441ef8e28843f3414cec9: {r: 0, g: 0.4528302, b: 0.082372844,
+        a: 0}
+    - Color_b627ed707d994c4fa0ceee18d1cf11c6: {r: 0.12977926, g: 0.21698111, b: 0.14570308,
+        a: 1}
+  m_BuildTextureStacks: []
