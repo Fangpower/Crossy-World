@@ -17,7 +17,7 @@ public class Money : MonoBehaviour
         if(PlayerPrefs.HasKey("PlayerMoney")){
             money = PlayerPrefs.GetFloat("PlayerMoney");
             print(PlayerPrefs.GetFloat("PlayerMoney"));
-            moneyText.text = money + "/100";
+            if(moneyText != null) moneyText.text = money + "/100";
         }
     }
     
